@@ -44,6 +44,17 @@
 				}
 				.main-image {
 					height: 50vw;
+					width: 100vw;
+				}
+				.card {
+					flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-firection: column;
+					-moz-flex-firection: column;
+				}
+				.input-container {
+					right: 24px;
+
 				}
 			}
 			/* Landscape */
@@ -55,6 +66,16 @@
 				.cta_button {
 					height: 44px;
 					line-height: 44px;
+				}
+				.main-image {
+					height: 100vh;
+					width: 50vw;
+				}
+				.card {
+					flex-direction: row;
+					-webkit-flex-firection: row;
+					-ms-flex-firection: row;
+					-moz-flex-firection: row;
 				}
 			}
 			/* ----------- iPhone 5 and 5S ----------- */
@@ -70,6 +91,13 @@
 				}
 				.main-image {
 					height: 65vw;
+					width: 100vw;
+				}
+				.card {
+					flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-firection: column;
+					-moz-flex-firection: column;
 				}
 			}
 			/* Landscape */
@@ -81,6 +109,16 @@
 				.cta_button {
 					height: 52px;
 					line-height: 52px;
+				}
+				.main-image {
+					height: 100vh;
+					width: 50vw;
+				}
+				.card {
+					flex-direction: row;
+					-webkit-flex-firection: row;
+					-ms-flex-firection: row;
+					-moz-flex-firection: row;
 				}
 			}
 			/* ----------- iPhone 6 ----------- */
@@ -96,6 +134,13 @@
 				}
 				.main-image {
 					height: 70vw;
+					width: 100vw;
+				}
+				.card {
+					flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-firection: column;
+					-moz-flex-firection: column;
 				}
 			}
 			/* Landscape */
@@ -107,6 +152,16 @@
 				.cta_button {
 					height: 62px;
 					line-height: 62px;
+				}
+				.main-image {
+					height: 100vh;
+					width: 50vw;
+				}
+				.card {
+					flex-direction: row;
+					-webkit-flex-firection: row;
+					-ms-flex-firection: row;
+					-moz-flex-firection: row;
 				}
 			}
 			/* ----------- iPhone 6+ ----------- */
@@ -121,6 +176,14 @@
 				}
 				.main-image {
 					height: 80vw;
+					width: 100vw;
+				}
+				.card {
+					flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-firection: column;
+					-moz-flex-firection: column;
+					width: 100vw;
 				}
 			}
 			/* Landscape */
@@ -132,20 +195,31 @@
 				.cta_button {
 					height: 62px;
 				}
+				.main-image {
+					height: 100vh;
+					width: 50vw;
+				}
+				.card {
+					flex-direction: row;
+					-webkit-flex-firection: row;
+					-ms-flex-firection: row;
+					-moz-flex-firection: row;
+				}
 			}
 			.main-image {
-				width: 100vw;
 				background-size: cover;
 				background-image: url("5miles_image.jpg");
+				background-position-x: center;
 			}
 			#content-container {
 				padding: 24px;
 				flex: 1;
 				-webkit-flex: 1;
 				background-color: white;
-				margin-left: 10px;
-				margin-right: 10px;
+				margin-left: 24px;
+				margin-right: 24px;
 				margin-bottom: 0;
+				position: relative;
 			}
 			.app-title {
 				font-size: 14px;
@@ -161,12 +235,14 @@
 				font-size: 20px;
 			}
 			.input-container {
-				position: absolute;
-				bottom: 0;
-				left: 24px;
-				right: 24px;
 				padding-bottom: 10px;
 				background-color: white;
+				bottom: 0;
+				position: absolute;
+				left: 0;
+				right: 0;
+				margin-left: 24px;
+				margin-right: 24px;
 			}
 			.app-icon {
 				padding-right: 20px;
@@ -214,8 +290,8 @@
 			<div class="main-image"></div>
 			<div id="content-container">
 				<div class="app-title bold">5miles</div>
-				<div class="card-title light">J. Crew Gold Plated Pearl Necklace</div>
-				<div class="app-content light">On sale for $15 and available for pickup in San Jose, this necklace by J. Crew is a steal. Length: 20" Materials: 14k gold-plated brass.</div>
+				<div class="card-title light">J. Crew Necklace</div>
+				<div class="app-content light">On sale for $15 and available for pickup in San Jose, this necklace by J. Crew is a steal.</div>
 				<div class="input-container">
 				<div class="input-label light">See this content immediately after install</div>
 				<form>
