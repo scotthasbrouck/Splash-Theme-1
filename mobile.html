@@ -34,13 +34,16 @@
 			/* ----------- iPhone 4 and 4S ----------- */
 			/* Portrait */
 			@media only screen
-				and (min-device-width: 320px)
-				and (max-device-width: 480px)
+				and (min-device-height: 320px)
+				and (max-device-height: 480px)
 				and (-webkit-min-device-pixel-ratio: 2)
 				and (orientation: portrait) {
 				.cta_button {
 					height: 44px;
 					line-height: 44px;
+				}
+				.main-image {
+					height: 50vw;
 				}
 			}
 			/* Landscape */
@@ -57,19 +60,22 @@
 			/* ----------- iPhone 5 and 5S ----------- */
 			/* Portrait */
 			@media only screen
-				and (min-device-width: 320px)
-				and (max-device-width: 568px)
+				and (min-device-height: 481px)
+				and (max-device-height: 580px)
 				and (-webkit-min-device-pixel-ratio: 2)
 				and (orientation: portrait) {
 				.cta_button {
 					height: 52px;
 					line-height: 52px;
 				}
+				.main-image {
+					height: 65vw;
+				}
 			}
 			/* Landscape */
 			@media only screen
 				and (min-device-width: 320px)
-				and (max-device-width: 568px)
+				and (max-device-width: 570px)
 				and (-webkit-min-device-pixel-ratio: 2)
 				and (orientation: landscape) {
 				.cta_button {
@@ -80,13 +86,16 @@
 			/* ----------- iPhone 6 ----------- */
 			/* Portrait */
 			@media only screen
-				and (min-device-width: 375px)
-				and (max-device-width: 667px)
+				and (min-device-height: 571px)
+				and (max-device-height: 667px)
 				and (-webkit-min-device-pixel-ratio: 2)
 				and (orientation: portrait) {
 				.cta_button {
 					height: 62px;
 					line-height: 62px;
+				}
+				.main-image {
+					height: 70vw;
 				}
 			}
 			/* Landscape */
@@ -103,12 +112,15 @@
 			/* ----------- iPhone 6+ ----------- */
 			/* Portrait */
 			@media only screen
-				and (min-device-width: 414px)
-				and (max-device-width: 736px)
+				and (min-device-height: 668px)
+				and (max-device-height: 750px)
 				and (-webkit-min-device-pixel-ratio: 3)
 				and (orientation: portrait) {
 				.cta_button {
 					height: 62px;
+				}
+				.main-image {
+					height: 80vw;
 				}
 			}
 			/* Landscape */
@@ -123,9 +135,8 @@
 			}
 			.main-image {
 				width: 100vw;
-				height: 50vw;
 				background-size: cover;
-				background-image: url("../img/splash/5miles_image.jpg");
+				background-image: url("5miles_image.jpg");
 			}
 			#content-container {
 				padding: 24px;
@@ -151,10 +162,11 @@
 			}
 			.input-container {
 				position: absolute;
-				bottom: 10px;
+				bottom: 0;
 				left: 24px;
 				right: 24px;
-				margin-bottom: 0;
+				padding-bottom: 10px;
+				background-color: white;
 			}
 			.app-icon {
 				padding-right: 20px;
@@ -207,7 +219,7 @@
 				<div class="input-container">
 				<div class="input-label light">See this content immediately after install</div>
 				<form>
-					<img src="../img/splash/5miles_icon.png" class="app-icon"></img>
+					<img src="5miles_icon.png" class="app-icon"></img>
 					<a href="https://bnc.lt/m/ff4vqSl36k?has_app=false" class="cta_button light">Get The App</a>
 				</form>
 			</div>
