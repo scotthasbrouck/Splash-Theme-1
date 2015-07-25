@@ -4,198 +4,198 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
 		<style>
-		/* ----------- Universal ----------- */
-		body {
-			background-color: #FFFFFF;
-			margin: 0;
-		}
-		/* Elements */
-		.card {
-			background-color: #F0EEEE;
-			display: flex;
-			display: -webkit-flex;
-			flex-direction: column;
-			-webkit-flex-direction: column;
-			height: 100%;
-		}
-		.cta_button {
-			background-color: #444444;
-			border: 1px solid #444444;
-			border-radius: 2px;
-			font-size: 20px;
-			color: #FFFFFF;
-			text-align: center;
-			text-decoration: none;
-			flex: 1;
-			-webkit-flex: 1;
-			height: 62px;
-			line-height: 62px;
-		}
-		/* ----------- iPhone 4 and 4S ----------- */
-		/* Portrait */
-		@media only screen
-			and (min-device-width: 320px)
-			and (max-device-width: 480px)
-			and (-webkit-min-device-pixel-ratio: 2)
-			and (orientation: portrait) {
-			.cta_button {
-				height: 44px;
-				line-height: 44px;
+			/* ----------- Universal ----------- */
+			body {
+				background-color: #FFFFFF;
+				margin: 0;
 			}
-		}
-		/* Landscape */
-		@media only screen
-			and (min-device-width: 320px)
-			and (max-device-width: 480px)
-			and (-webkit-min-device-pixel-ratio: 2)
-			and (orientation: landscape) {
-			.cta_button {
-				height: 44px;
-				line-height: 44px;
+			/* Elements */
+			.card {
+				background-color: #F0EEEE;
+				display: flex;
+				display: -webkit-flex;
+				flex-direction: column;
+				-webkit-flex-direction: column;
+				height: 100%;
 			}
-		}
-		/* ----------- iPhone 5 and 5S ----------- */
-		/* Portrait */
-		@media only screen
-			and (min-device-width: 320px)
-			and (max-device-width: 568px)
-			and (-webkit-min-device-pixel-ratio: 2)
-			and (orientation: portrait) {
 			.cta_button {
-				height: 52px;
-				line-height: 52px;
-			}
-		}
-		/* Landscape */
-		@media only screen
-			and (min-device-width: 320px)
-			and (max-device-width: 568px)
-			and (-webkit-min-device-pixel-ratio: 2)
-			and (orientation: landscape) {
-			.cta_button {
-				height: 52px;
-				line-height: 52px;
-			}
-		}
-		/* ----------- iPhone 6 ----------- */
-		/* Portrait */
-		@media only screen
-			and (min-device-width: 375px)
-			and (max-device-width: 667px)
-			and (-webkit-min-device-pixel-ratio: 2)
-			and (orientation: portrait) {
-			.cta_button {
+				background-color: #444444;
+				border: 1px solid #444444;
+				border-radius: 2px;
+				font-size: 20px;
+				color: #FFFFFF;
+				text-align: center;
+				text-decoration: none;
+				flex: 1;
+				-webkit-flex: 1;
 				height: 62px;
 				line-height: 62px;
 			}
-		}
-		/* Landscape */
-		@media only screen
-			and (min-device-width: 375px)
-			and (max-device-width: 667px)
-			and (-webkit-min-device-pixel-ratio: 2)
-			and (orientation: landscape) {
-			.cta_button {
-				height: 62px;
-				line-height: 62px;
+			/* ----------- iPhone 4 and 4S ----------- */
+			/* Portrait */
+			@media only screen
+				and (min-device-width: 320px)
+				and (max-device-width: 480px)
+				and (-webkit-min-device-pixel-ratio: 2)
+				and (orientation: portrait) {
+				.cta_button {
+					height: 44px;
+					line-height: 44px;
+				}
 			}
-		}
-		/* ----------- iPhone 6+ ----------- */
-		/* Portrait */
-		@media only screen
-			and (min-device-width: 414px)
-			and (max-device-width: 736px)
-			and (-webkit-min-device-pixel-ratio: 3)
-			and (orientation: portrait) {
-			.cta_button {
-				height: 62px;
+			/* Landscape */
+			@media only screen
+				and (min-device-width: 320px)
+				and (max-device-width: 480px)
+				and (-webkit-min-device-pixel-ratio: 2)
+				and (orientation: landscape) {
+				.cta_button {
+					height: 44px;
+					line-height: 44px;
+				}
 			}
-		}
-		/* Landscape */
-		@media only screen
-			and (min-device-width: 414px)
-			and (max-device-width: 736px)
-			and (-webkit-min-device-pixel-ratio: 3)
-			and (orientation: landscape) {
-			.cta_button {
-				height: 62px;
+			/* ----------- iPhone 5 and 5S ----------- */
+			/* Portrait */
+			@media only screen
+				and (min-device-width: 320px)
+				and (max-device-width: 568px)
+				and (-webkit-min-device-pixel-ratio: 2)
+				and (orientation: portrait) {
+				.cta_button {
+					height: 52px;
+					line-height: 52px;
+				}
 			}
-		}
-		.main-image {
-			width: 100vw;
-			height: 50vw;
-			background-size: cover;
-			background-image: url("../img/splash/5miles_image.jpg");
-		}
-		#content-container {
-			padding: 24px;
-			flex: 1;
-			-webkit-flex: 1;
-			background-color: white;
-			margin-left: 10px;
-			margin-right: 10px;
-			margin-bottom: 0;
-		}
-		.app-title {
-			font-size: 14px;
-			padding-bottom: 11px;
-			text-transform: uppercase;
-		}
-		.card-title {
-			font-size: 33px;
-			line-height: 36px;
-		}
-		.app-content {
-			padding-top: 10px;
-			font-size: 20px;
-		}
-		.input-container {
-			position: absolute;
-			bottom: 10px;
-			left: 24px;
-			right: 24px;
-			margin-bottom: 0;
-		}
-		.app-icon {
-			padding-right: 20px;
-			max-width: 62px;
-			max-height: 62px;
-		}
-		form > input {
-			margin-right: 10px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			background-color: #FFFFFF;
-			border: 1px solid #979797;
-			border-radius: 2px;
-			font-size: 60px;
-			color: #CECECE;
-			line-height: 24px;
-			padding-left: 20px;
-		}
-		.input-container > form {
-			display: flex;
-			display: -webkit-flex;
-			flex-direction: row;
-			-webkit-flex-direction: row;
-			padding-top: 6px;
-			border-top: 2px solid #CECECE;
-			margin-bottom: 0;
-		}
-		.input-label {
-			padding-bottom: 4px;
-			font-size: 14px;
-		}
-		/* Reusables */
-		.bold {
-			font-family: 'Open Sans', Helvetica, serif;
-			font-weight: 700
-		}
-		.light {
-			font-family: 'Open Sans', Helvetica, serif;
-			font-weight: 300;
-		}
-		 </style>
+			/* Landscape */
+			@media only screen
+				and (min-device-width: 320px)
+				and (max-device-width: 568px)
+				and (-webkit-min-device-pixel-ratio: 2)
+				and (orientation: landscape) {
+				.cta_button {
+					height: 52px;
+					line-height: 52px;
+				}
+			}
+			/* ----------- iPhone 6 ----------- */
+			/* Portrait */
+			@media only screen
+				and (min-device-width: 375px)
+				and (max-device-width: 667px)
+				and (-webkit-min-device-pixel-ratio: 2)
+				and (orientation: portrait) {
+				.cta_button {
+					height: 62px;
+					line-height: 62px;
+				}
+			}
+			/* Landscape */
+			@media only screen
+				and (min-device-width: 375px)
+				and (max-device-width: 667px)
+				and (-webkit-min-device-pixel-ratio: 2)
+				and (orientation: landscape) {
+				.cta_button {
+					height: 62px;
+					line-height: 62px;
+				}
+			}
+			/* ----------- iPhone 6+ ----------- */
+			/* Portrait */
+			@media only screen
+				and (min-device-width: 414px)
+				and (max-device-width: 736px)
+				and (-webkit-min-device-pixel-ratio: 3)
+				and (orientation: portrait) {
+				.cta_button {
+					height: 62px;
+				}
+			}
+			/* Landscape */
+			@media only screen
+				and (min-device-width: 414px)
+				and (max-device-width: 736px)
+				and (-webkit-min-device-pixel-ratio: 3)
+				and (orientation: landscape) {
+				.cta_button {
+					height: 62px;
+				}
+			}
+			.main-image {
+				width: 100vw;
+				height: 50vw;
+				background-size: cover;
+				background-image: url("../img/splash/5miles_image.jpg");
+			}
+			#content-container {
+				padding: 24px;
+				flex: 1;
+				-webkit-flex: 1;
+				background-color: white;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom: 0;
+			}
+			.app-title {
+				font-size: 14px;
+				padding-bottom: 11px;
+				text-transform: uppercase;
+			}
+			.card-title {
+				font-size: 33px;
+				line-height: 36px;
+			}
+			.app-content {
+				padding-top: 10px;
+				font-size: 20px;
+			}
+			.input-container {
+				position: absolute;
+				bottom: 10px;
+				left: 24px;
+				right: 24px;
+				margin-bottom: 0;
+			}
+			.app-icon {
+				padding-right: 20px;
+				max-width: 62px;
+				max-height: 62px;
+			}
+			form > input {
+				margin-right: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: #FFFFFF;
+				border: 1px solid #979797;
+				border-radius: 2px;
+				font-size: 60px;
+				color: #CECECE;
+				line-height: 24px;
+				padding-left: 20px;
+			}
+			.input-container > form {
+				display: flex;
+				display: -webkit-flex;
+				flex-direction: row;
+				-webkit-flex-direction: row;
+				padding-top: 6px;
+				border-top: 2px solid #CECECE;
+				margin-bottom: 0;
+			}
+			.input-label {
+				padding-bottom: 4px;
+				font-size: 14px;
+			}
+			/* Reusables */
+			.bold {
+				font-family: 'Open Sans', Helvetica, serif;
+				font-weight: 700
+			}
+			.light {
+				font-family: 'Open Sans', Helvetica, serif;
+				font-weight: 300;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="card center">
