@@ -23,14 +23,14 @@ Web SDK v1.6.4 included, with SMS form
 Supports both portrait and landscape
 
 ### Tested On
-iPhone 6+
-iPhone 6
-iPhone 5/5s/5c
-iPhone 4/3G
-Samsung Galaxy Note 3
-Samsung Galaxy Note II
-Samsung Galaxy S III
-Samsung Galaxy S4
-Google Nexus 4
-Google Nexus 5
-Google Nexus 6
+* iPhone 6+
+* iPhone 6
+* iPhone 5/5s/5c
+* iPhone 4/3G
+* Samsung Galaxy Note 3
+* Samsung Galaxy Note II
+* Samsung Galaxy S III
+* Samsung Galaxy S4
+* Google Nexus 4
+* Google Nexus 5
+* Google Nexus 6
