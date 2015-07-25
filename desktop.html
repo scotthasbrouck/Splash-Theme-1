@@ -7,16 +7,18 @@
 				background-color: #FFFFFF;
 				margin: 0;
 			}
-
 			/* Elements */
 			.card {
 				background-color: #FCFCFC;
 				width: 830px; /* Natali check this */
 				display: flex;
 				display: -webkit-flex;
+				display: -ms-flex;
+				display: -moz-flex;
 				flex-direction: row;
 				-webkit-flex-direction: row;
-
+				-ms-flex-direction: row;
+				-moz-flex-direction: row;
 			}
 			#main-image {
 				width: 360px; /* We should pick a "standard" nice round size for this. 521px seems arbitrary */
@@ -31,6 +33,7 @@
 				flex: 1;
 				-webkit-flex: 1;
 				-ms-flex: 1;
+				-moz-flex: 1;
 				padding: 24px;
 			}
 			.app-title {
@@ -63,6 +66,7 @@
 				flex: 1;
 				-webkit-flex: 1;
 				-ms-flex: 1;
+				-moz-flex: 1;
 				background-color: #FFFFFF;
 				border: 1px solid #979797;
 				border-radius: 2px;
@@ -81,10 +85,14 @@
 				cursor: pointer;
 			}
 			.input-container > form {
-				display: flex;
 				flex-direction: row;
-				display: -webkit-flex;
 				-webkit-flex-direction: row;
+				-moz-flex-direction: row;
+				-ms-flex-direction: row;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: flex;
 			}
 			.input-label {
 				padding-bottom: 10px;
@@ -95,6 +103,7 @@
 				transform: translate(-50%, -50%);
 				-webkit-transform: translate(-50%, -50%);
 				-ms-transform: translate(-50%, -50%);
+				-moz-transform: translate(-50%, -50%);
 				top: 50%;
 				left: 50%;
 				position: fixed;
